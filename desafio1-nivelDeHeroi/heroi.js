@@ -4,7 +4,7 @@ console.log('<<<< Verifique o nível do herói >>>>')
 
 let nome = prompt("Digite o nome do herói: ")
 let xp = parseInt(prompt("Digite o XP do herói: "))
-var nivel = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "AScendente", "Imortal", "Radiante"];
+var nivel = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"];
 
 
 if (xp < 1000) {
@@ -21,6 +21,6 @@ if (xp < 1000) {
     console.log("O Herói de nome ** " + nome + " ** está no nível de ** " + nivel[5] + " **")
 } else if (xp >= 9001 && xp < 10000) {
     console.log("O Herói de nome ** " + nome + " ** está no nível de ** " + nivel[6] + " **")
-} else {
+} else if(xp >= 10001){
     console.log("O Herói de nome ** " + nome + " ** está no nível de ** " + nivel[7] + " **")
 }
