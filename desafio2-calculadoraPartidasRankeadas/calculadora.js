@@ -19,9 +19,14 @@ function calcularVitorias(lutas, derrotas) {
 }
 
 
-let lutas = parseInt(prompt("Digite o número de lutas do herói: "))
-let derrotas = parseInt(prompt("Digite a quantidade de derrotas do herói: "))
+console.log("Digite a quantidade de lutas: ")
+let lutas = prompt(parseInt())
+console.log(lutas)
+console.log("Digite a quantidade de derrotas do herói: ")
+let derrotas = prompt(parseInt())
+console.log(derrotas)
 var nivel = ["Ferro", "Bronze", "Prata", "Ouro", "Diamante", "Lendário", "Imortal"];
+
 
 calcularVitorias(lutas, derrotas)
 
